@@ -1,0 +1,13 @@
+/*For global styles*/
+
+@import "/styles/general.css";
+
+/*Tools styles*/
+
+@import "/styles/grid.css";
+
+/*blocks styles*/
+
+@import "/styles/header.css";
+@import "/styles/workflow.css";
+@import "/styles/footer.css";

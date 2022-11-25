@@ -1,0 +1,94 @@
+/* .row modify */
+
+/* яя вынужден модифицировать row из-за того что мне тут нужен определенный тип флексаю А что делать когда мне другой тип понадобиться если у нас всегда только один миксованный блок row? и нельзя давать row2 и тд */
+.row {
+  justify-content: space-between;
+  align-items: center;
+}
+
+/*font connect*/
+@font-face {
+  font-family: "HK Grotesk";
+}
+
+/*Text styles*/
+
+h1 {
+  font-family: "HK Grotesk", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 68px;
+  color: #183b56;
+}
+h2 {
+  color: #183b56;
+}
+h3 {
+  color: #183b56;
+}
+p {
+  color: #183b56;
+}
+
+.header-top {
+  height: 100px;
+  display: flex;
+  align-items: center;
+}
+/* не знаю какомн элементу можно дать это таким образом чтобы 
+везде был зеленый цвет. С тем уровнем вложенности это не будет работать */
+.header-top_background {
+  background: rgba(54, 179, 126, 0.1);
+}
+
+.header-top__nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-main__options {
+  text-decoration: none;
+  color: #183b56;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+}
+
+/* padding and margin для размеров кнопки работает не правильно*/
+
+.nav-main__button {
+  color: #1565d8;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 22px;
+  text-align: center;
+  align-self: flex-end;
+  background: none;
+  height: 48px;
+  width: 131px;
+  left: 0px;
+  top: 0px;
+  border-radius: 8px;
+  border: 2px solid #1565d8;
+}
+
+.customer-relations {
+}
+.email {
+}
+.email__input {
+}
+.email__button-early-acess {
+}
+.email__background {
+}
+.illustration-wrapper {
+}
+.image-wrapper__illustration {
+}

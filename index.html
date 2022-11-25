@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Ehya new</title>
+
+    <!-- я не заметил влияние нормалайза на проект кроме того что исчез марджин у бади -->
+    <link
+      rel="stylesheet"
+      href="https://necolas.github.io/normalize.css/8.0.1/normalize.css"
+    />
+    <link rel="stylesheet" href="./styles/main.css" />
+  </head>
+  <body>
+    <header class="header-top">
+      <div class="container">
+        <div class="row header-top_background">
+          <div class="col-2">
+            <div class="header-top__logo">
+              <img src="/files/logos/Logo.svg" alt="ehya logo" />
+            </div>
+          </div>
+          <div class="col-6">
+            <nav class="header-top__nav">
+              <!-- вначале пытался дать unordered list>>a href но флексы ломались и нужно было каждому элементу выше давать его, не понимаю как это обойти -->
+              <a href="#" class="nav-main__options">Home</a>
+              <a href="#" class="nav-main__options">Landings</a>
+              <a href="#" class="nav-main__options">Pages</a>
+              <a href="#" class="nav-main__options">Docs</a>
+              <a href="#" class="nav-main__options">Help</a>
+              <button class="nav-main__button">Get it now</button>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- как ты и сказал я пытаюсь не городить карточный домик и разделять на части но в случае бэкграунда например это мешает -->
+
+    <!-- я не дать расстояние между блоками потому что по БЭМу нельзя давать внешние отступы. Как я могу двигать этот блок ниже на 80px? -->
+    <div class="header-content">
+      <div class="container">
+        <!-- я вынужден давать row такие приписки чтобы влиять на блочный уровень -->
+        <div class="row header-top_background">
+          <div class="col-6">
+            <div class="customer-relations">
+              <h1>Better customer relations starts now</h1>
+              <p>
+                With all of your communication and tools in one place, remote
+                teams will stay productive no matter where you’re working from.
+              </p>
+              <div class="email">
+                <input class="email__input" placeholder="Your Email here..." />
+                <button class="email__button-early-acess">Get Started</button>
+                <div class="email__background"></div>
+              </div>
+            </div>
+          </div>
+          <div class="col-6">
+            <div class="illustration-wrapper">
+              <img
+                class="image-wrapper__illustration"
+                src="/files/pictures/Customer Development.png"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
