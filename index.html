@@ -6,8 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <title>Ehya new</title>
-
-    <!-- я не заметил влияние нормалайза на проект кроме того что исчез марджин у бади -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link href="https://fonts.cdnfonts.com/css/hk-groteks" rel="stylesheet" />
     <link
       rel="stylesheet"
       href="https://necolas.github.io/normalize.css/8.0.1/normalize.css"
@@ -25,7 +30,6 @@
           </div>
           <div class="col-6">
             <nav class="header-top__nav">
-              <!-- вначале пытался дать unordered list>>a href но флексы ломались и нужно было каждому элементу выше давать его, не понимаю как это обойти -->
               <a href="#" class="nav-main__options">Home</a>
               <a href="#" class="nav-main__options">Landings</a>
               <a href="#" class="nav-main__options">Pages</a>
@@ -37,12 +41,9 @@
         </div>
       </div>
     </header>
-    <!-- как ты и сказал я пытаюсь не городить карточный домик и разделять на части но в случае бэкграунда например это мешает -->
 
-    <!-- я не дать расстояние между блоками потому что по БЭМу нельзя давать внешние отступы. Как я могу двигать этот блок ниже на 80px? -->
     <div class="header-content">
       <div class="container">
-        <!-- я вынужден давать row такие приписки чтобы влиять на блочный уровень -->
         <div class="row header-top_background">
           <div class="col-6">
             <div class="customer-relations">
