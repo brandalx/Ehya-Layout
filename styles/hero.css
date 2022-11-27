@@ -55,6 +55,8 @@
 }
 
 .hero__scroll-down {
+  position: absolute;
+  top: 700px;
 }
 .image-wrapper__illustration {
   max-width: 100%;
