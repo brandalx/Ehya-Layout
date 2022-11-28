@@ -1,13 +1,13 @@
 .hero {
   display: flex;
   background: var(--secondary);
-  height: calc(100vh - 114px);
+  height: calc(100vh - 100px);
   justify-content: space-between;
 
   align-items: center;
 }
 
-.hero-form {
+.hero_form-block {
   height: 430px;
   display: flex;
   flex-direction: column;
@@ -28,7 +28,7 @@
   justify-content: space-between;
   align-items: center;
 }
-.email__input {
+.email__input-block {
   margin-left: 25px;
   z-index: 2;
   font-family: "Open Sans";
@@ -56,7 +56,7 @@
 
 .hero__scroll-down {
   position: absolute;
-  top: 700px;
+  top: 650px;
 }
 .image-wrapper__illustration {
   max-width: 100%;
