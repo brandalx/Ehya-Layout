@@ -1,12 +1,86 @@
 .workflow {
 }
 
-.workflow_header-center {
+.workflow__header {
+  display: flex;
+  justify-content: center;
 }
-.workflow_header {
+
+.workflow_title-center {
+  height: 240px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.workflow__title > * {
+  text-align: center;
+}
+
+/* Не могу заставить контейнеры сжиматься при сжимании экрана но вроде все делаю правильно*/
+.workflow__blocks {
+  max-width: 100%;
+}
+
+.workflow_blocks_wrapper {
+  height: 270px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
 }
 
 .workflow_blocks {
+  border-radius: 16px;
+  height: 212px;
 }
+
+.workflow_blocks h3 {
+  margin-bottom: 16px;
+}
+.workflow_blocks svg {
+  margin-top: 16px;
+}
+
+.multiOS_block {
+  max-width: 90%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background: #e6f8fc;
+}
+.compatibility_block {
+  max-width: 90%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background: #ebf8f3;
+}
+.integration_block {
+  max-width: 90%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+
+  background: #fdeeeb;
+}
+
 .workflow_svg_container {
+  max-width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.workflow_svg_container-multiOS {
+  width: 200px;
+}
+
+.workflow_svg_container-Compatibility {
+  width: 150px;
+}
+
+.workflow_svg_container-integration {
+  width: 200px;
 }
