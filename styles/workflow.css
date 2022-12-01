@@ -13,13 +13,10 @@
   align-items: flex-end;
 }
 
-
-
 .workflow__title > * {
   text-align: center;
 }
 
-/* Не могу заставить контейнеры сжиматься при сжимании экрана но вроде все делаю правильно*/
 .workflow__blocks {
   max-width: 100%;
 }
