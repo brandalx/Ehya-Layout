@@ -8,7 +8,9 @@
 
 /*blocks styles*/
 
+@import "/styles/page.css";
 @import "/styles/header.css";
 @import "/styles/hero.css";
 @import "/styles/workflow.css";
+@import "/styles/footer.css";
 @import "/styles/footer.css";
