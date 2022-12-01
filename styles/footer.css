@@ -1,0 +1,48 @@
+.footer {
+  height: 670px;
+  display: flex;
+  align-items: center;
+}
+
+/* .col-3 {
+} */
+.column-logo {
+  display: flex;
+  flex-direction: column;
+}
+.column-logo p {
+  margin-bottom: 35px;
+}
+.column-logo_logo > * {
+  margin-bottom: 35px;
+}
+
+/* .col-9 {
+} */
+
+.column-product h4 {
+  margin-bottom: 45px;
+}
+
+.column-product a {
+  margin-bottom: 35px;
+}
+
+.column-services h4 {
+  margin-bottom: 45px;
+}
+.column-services a {
+  margin-bottom: 35px;
+}
+.column-company h4 {
+  margin-bottom: 45px;
+}
+.column-company a {
+  margin-bottom: 35px;
+}
+.column-more h4 {
+  margin-bottom: 45px;
+}
+.column-more a {
+  margin-bottom: 35px;
+}
