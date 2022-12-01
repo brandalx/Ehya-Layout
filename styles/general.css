@@ -62,3 +62,8 @@ a:hover {
   color: var(--ligth);
   border-color: var(--primary);
 }
+
+.footer-element-center {
+  display: flex;
+  flex-direction: column;
+}
