@@ -11,10 +11,10 @@
   flex-direction: column;
 }
 .column-logo p {
-  margin-bottom: 35px;
+  margin-bottom: 32px;
 }
-.column-logo_logo > * {
-  margin-bottom: 35px;
+.column-logo_logo  {
+  margin-bottom: 28px;
 }
 
 /* .col-9 {
