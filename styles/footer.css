@@ -20,6 +20,9 @@
 /* .col-9 {
 } */
 
+footer a{
+  color: var(  --dark);
+}
 .column-product h4 {
   margin-bottom: 45px;
 }
