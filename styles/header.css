@@ -20,11 +20,12 @@
 }
 
 .header-menu__link {
-  margin-right: 40px;
+  font-family: 'Open Sans';
   font-weight: 600;
   font-size: 16px;
   line-height: 22px;
   text-align: center;
+  margin-right: 40px;
   color: var(--dark);
   text-decoration: none;
 }
