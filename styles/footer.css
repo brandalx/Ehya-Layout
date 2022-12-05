@@ -1,11 +1,11 @@
 .footer {
+ 
   padding: 100px;
   display: flex;
   align-items: center;
 }
 
-/* .col-3 {
-} */
+
 .column-logo {
   display: flex;
   flex-direction: column;
@@ -22,8 +22,7 @@ line-height: 28px;
   margin-bottom: 28px;
 }
 
-/* .col-9 {
-} */
+
 
 footer a {
   color: var(--dark);
@@ -43,4 +42,29 @@ footer h4 {
   font-size: 18px;
   line-height: 25px;
   margin-bottom: 31px;
+}
+
+
+
+.footer-end {
+  padding-top: 96px;
+  padding-bottom: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.footer-end__logo {
+  padding-bottom: 24px;
+  font-family: var( --font);
+  font-weight: 600;
+font-size: 16px;
+line-height: 22px;
+color: #5A7184;
+margin: 0 auto;
+text-align: center;
+ 
+}
+
+.footer-end  p{
+  text-align: center;
 }
