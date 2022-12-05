@@ -66,20 +66,19 @@
   background: #fdeeeb;
 }
 
-.workflow_svg_container {
-  max-width: 100%;
-  display: flex;
-  justify-content: space-between;
+.workflow_svg_container >* {
+ 
+  margin: 0 12px;
 }
 
 .workflow_svg_container-multiOS {
-  width: 200px;
+
 }
 
 .workflow_svg_container-Compatibility {
-  width: 150px;
+
 }
 
 .workflow_svg_container-integration {
-  width: 200px;
+
 }
