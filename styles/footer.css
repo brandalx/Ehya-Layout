@@ -13,23 +13,29 @@
 .column-logo p {
   margin-bottom: 32px;
 }
-.column-logo_logo  {
+.column-logo_logo {
   margin-bottom: 28px;
 }
 
 /* .col-9 {
 } */
 
-footer a{
-  color: var(  --dark);
+footer a {
+  color: var(--dark);
 }
 
-
-footer a{
+footer a {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
   margin-bottom: 24px;
 }
 
-footer h4{
+footer h4 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 25px;
   margin-bottom: 31px;
 }
-
