@@ -17,6 +17,32 @@
   --font-secondary: "HK Grotesk", sans-serif;
 }
 
+
+/*sticky footer*/
+html, body {
+  box-sizing: border-box;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+.wrapper {
+  box-sizing: border-box;
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+header, footer{
+flex-grow: 0;
+flex-shrink: 0;
+}
+
+.body{
+  flex-grow: 1;
+}
+
+
+/*sticky footer - end*/
+
 body {
   font-family: var(--font);
 }
