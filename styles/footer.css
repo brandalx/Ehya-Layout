@@ -24,28 +24,28 @@ footer a{
   color: var(  --dark);
 }
 .column-product h4 {
-  margin-bottom: 45px;
+  margin-bottom: 31px;
 }
 
 .column-product a {
-  margin-bottom: 35px;
+  margin-bottom: 24px;
 }
 
 .column-services h4 {
-  margin-bottom: 45px;
+  margin-bottom: 31px;
 }
 .column-services a {
-  margin-bottom: 35px;
+  margin-bottom: 24px;
 }
 .column-company h4 {
-  margin-bottom: 45px;
+  margin-bottom: 31px;
 }
 .column-company a {
-  margin-bottom: 35px;
+  margin-bottom: 24px;
 }
 .column-more h4 {
-  margin-bottom: 45px;
+  margin-bottom: 31px;
 }
 .column-more a {
-  margin-bottom: 35px;
+  margin-bottom: 24px;
 }
