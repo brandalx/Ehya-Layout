@@ -12,7 +12,7 @@
   --dark: #183b56;
   --ligth: #fff;
   --reserved-blue: #1565d8;
-
+--paragraph-color: #5A7184;
   --font: "Open Sans", sans-serif;
   --font-secondary: "HK Grotesk", sans-serif;
 }
@@ -58,6 +58,12 @@ h6 {
 }
 
 p {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+  color: var(--paragraph-color);
   margin: 0;
 }
 a {
