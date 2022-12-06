@@ -28,16 +28,23 @@ padding-bottom: 24px;
   margin-bottom: 46px;
 }
 .email {
+ 
   height: 60px;
   width: 415px;
 }
 .email__center {
+  height: 60px;
+  width: 415px;
+  border: 1px solid #E5EAF4;
   position: relative;
   border-radius: 30px;
   background: white;
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+.btn-primary{
+  margin-right: 6px;
 }
 .email__input-block {
   margin-left: 25px;
@@ -50,20 +57,7 @@ padding-bottom: 24px;
   border: none;
   background: #ffffff00;
 }
-.email__button-early-acess {
-  border: none;
-  height: 46px;
-  width: 137px;
-  background: var(--primary);
-  color: white;
-  border-radius: 30px;
-  margin-left: 55px;
-  z-index: 2;
-}
-.email__button-early-acess:hover {
-  background: #3bbe88;
-  cursor: pointer;
-}
+
 
 .hero__scroll-down {
   position: absolute;
