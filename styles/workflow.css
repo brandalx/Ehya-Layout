@@ -1,21 +1,39 @@
 .workflow {
+  
 }
 
 .workflow__header {
+  padding-top: 99.5px;
   display: flex;
   justify-content: center;
-}
-
-.workflow_title-center {
-  height: 240px;
-  display: flex;
-  justify-content: center;
-  align-items: flex-end;
 }
 
 .workflow__title > * {
   text-align: center;
 }
+
+.workflow__title  h1{
+font-family: var( --font-secondary);
+
+font-weight: 700;
+font-size: 40px;
+line-height: 52px;
+
+letter-spacing: 0.2px;
+color:var(--dark);
+padding-bottom: 24px;
+}
+
+.workflow__title p{
+font-family: 'Open Sans';
+font-weight: 400;
+font-size: 18px;
+line-height: 32px;
+color:  #5A7184;
+
+}
+
+
 
 .workflow__blocks {
   max-width: 100%;
