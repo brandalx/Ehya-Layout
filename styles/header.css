@@ -29,25 +29,4 @@
   color: var(--dark);
   text-decoration: none;
 }
-.header-menu__btn {
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 22px;
-  height: 48px;
-  border: 2px solid var(--reserved-blue);
-  border-radius: 8px;
-  display: flex;
-  padding: 0 20px;
-  cursor: pointer;
-  align-items: center;
-}
-.header-menu__btn:hover {
-  border: 2px solid #2279f3;
-  background: #2279f3;
-  color: var(--ligth);
-  border-radius: 8px;
-  display: flex;
-  padding: 0 20px;
-  cursor: pointer;
-  align-items: center;
-}
+

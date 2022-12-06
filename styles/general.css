@@ -69,7 +69,7 @@ a:hover {
   color: #36b37e;
 }
 
-.btn {
+.btn-primary {
   color: var(--primary);
   background: transparent;
   border: 2px solid;
@@ -83,10 +83,34 @@ a:hover {
   align-items: center;
 }
 
-.btn:hover {
+.btn-primary:hover {
   background: var(--primary);
   color: var(--ligth);
   border-color: var(--primary);
+}
+
+.btn-secondary{
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 22px;
+  height: 48px;
+  border: 2px solid var(--reserved-blue);
+  border-radius: 8px;
+  display: flex;
+  padding: 0 20px;
+  cursor: pointer;
+  align-items: center;
+}
+
+.btn-secondary:hover{
+  border: 2px solid #2279f3;
+  background: #2279f3;
+  color: var(--ligth);
+  border-radius: 8px;
+  display: flex;
+  padding: 0 20px;
+  cursor: pointer;
+  align-items: center;
 }
 
 .footer-element-center {

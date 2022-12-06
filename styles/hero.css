@@ -1,7 +1,7 @@
 .hero {
   display: flex;
   background: var(--secondary);
-  height: calc(100vh - 100px);
+  min-height: calc(100vh - 100px);
   justify-content: space-between;
 
   align-items: center;
