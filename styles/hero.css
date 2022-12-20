@@ -16,38 +16,37 @@
   justify-content: center;
 }
 h1 {
-font-family: 'HK Grotesk';
-font-weight: 700;
-font-size: 56px;
-line-height: 68px;
-letter-spacing: 0.2px;
-color:var(--dark);
-padding-bottom: 24px;
+  font-family: "HK Grotesk";
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 68px;
+  letter-spacing: 0.2px;
+  color: var(--dark);
+  padding-bottom: 24px;
 }
- p{
+p {
   margin-bottom: 35px;
 }
 .email {
- 
   height: 60px;
   width: 415px;
 }
 .email__center {
   height: 60px;
   width: 415px;
-  border: 1px solid #E5EAF4;
+  border: 1px solid #e5eaf4;
   position: relative;
   border-radius: 30px;
-  background: white;
+  background: var(--ligth);
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.btn-primary{
-margin-right: 6px;
+.btn-primary {
+  margin-right: 6px;
 }
-form{
-  width:100% ;
+form {
+  width: 100%;
   display: flex;
   justify-content: space-between;
 }
@@ -62,7 +61,6 @@ form{
   border: none;
   background: #ffffff00;
 }
-
 
 .hero__scroll-down {
   position: absolute;
