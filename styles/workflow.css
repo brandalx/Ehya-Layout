@@ -36,7 +36,8 @@
 }
 
 .workflow-blocks-wrapper {
-  height: 270px;
+  /* height: 270px; */
+
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
@@ -44,7 +45,7 @@
 
 .workflow-blocks {
   border-radius: 16px;
-  /* height: 212px; */
+
   padding: 55px 0px;
 }
 
