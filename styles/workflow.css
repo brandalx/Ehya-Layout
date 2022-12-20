@@ -35,23 +35,23 @@
   max-width: 100%;
 }
 
-.workflow_blocks_wrapper {
+.workflow-blocks-wrapper {
   height: 270px;
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
 }
 
-.workflow_blocks {
+.workflow-blocks {
   border-radius: 16px;
   height: 212px;
 }
 
-.workflow_blocks h3 {
+.workflow-blocks h3 {
   margin-bottom: 16px;
   color: var(--dark);
 }
-.workflow_blocks svg {
+.workflow-blocks svg {
   margin-top: 16px;
 }
 
