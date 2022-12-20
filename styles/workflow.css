@@ -1,5 +1,4 @@
 .workflow {
-  
 }
 
 .workflow__header {
@@ -12,28 +11,25 @@
   text-align: center;
 }
 
-.workflow__title  h1{
-font-family: var( --font-secondary);
+.workflow__title h1 {
+  font-family: var(--font-secondary);
 
-font-weight: 700;
-font-size: 40px;
-line-height: 52px;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
 
-letter-spacing: 0.2px;
-color:var(--dark);
-padding-bottom: 24px;
+  letter-spacing: 0.2px;
+  color: var(--dark);
+  padding-bottom: 24px;
 }
 
-.workflow__title p{
-font-family: 'Open Sans';
-font-weight: 400;
-font-size: 18px;
-line-height: 32px;
-color:  #5A7184;
-
+.workflow__title p {
+  font-family: "Open Sans";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+  color: #5a7184;
 }
-
-
 
 .workflow__blocks {
   max-width: 100%;
@@ -53,6 +49,7 @@ color:  #5A7184;
 
 .workflow_blocks h3 {
   margin-bottom: 16px;
+  color: var(--dark);
 }
 .workflow_blocks svg {
   margin-top: 16px;
@@ -84,19 +81,15 @@ color:  #5A7184;
   background: #fdeeeb;
 }
 
-.workflow_svg_container >* {
- 
+.workflow_svg_container > * {
   margin: 0 12px;
 }
 
 .workflow_svg_container-multiOS {
-
 }
 
 .workflow_svg_container-Compatibility {
-
 }
 
 .workflow_svg_container-integration {
-
 }

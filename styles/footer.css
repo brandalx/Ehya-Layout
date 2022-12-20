@@ -1,35 +1,32 @@
 .footer {
- 
+  background: var(--light);
   padding-top: 128px;
   display: flex;
   align-items: center;
 }
-
 
 .column-logo {
   display: flex;
   flex-direction: column;
 }
 .column-logo p {
-  color: #5A7184;
-  font-family: var( --font);
-font-weight: 400;
-font-size: 16px;
-line-height: 28px;
+  color: #5a7184;
+  font-family: var(--font);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
   margin-bottom: 32px;
 }
 .column-logo_logo {
   margin-bottom: 28px;
 }
 
-
-
 footer a {
   color: var(--dark);
 }
 
 footer a {
-  font-family: var( --font);
+  font-family: var(--font);
   font-weight: 400;
   font-size: 16px;
   line-height: 22px;
@@ -37,14 +34,13 @@ footer a {
 }
 
 footer h4 {
-  font-family: var( --font);
+  color: var(--dark);
+  font-family: var(--font);
   font-weight: 700;
   font-size: 18px;
   line-height: 25px;
   margin-bottom: 31px;
 }
-
-
 
 .footer-end {
   padding-top: 96px;
@@ -55,16 +51,15 @@ footer h4 {
 }
 .footer-end__logo {
   padding-bottom: 24px;
-  font-family: var( --font);
+  font-family: var(--font);
   font-weight: 600;
-font-size: 16px;
-line-height: 22px;
-color: #5A7184;
-margin: 0 auto;
-text-align: center;
- 
+  font-size: 16px;
+  line-height: 22px;
+  color: #5a7184;
+  margin: 0 auto;
+  text-align: center;
 }
 
-.footer-end  p{
+.footer-end p {
   text-align: center;
 }
