@@ -12,14 +12,14 @@
   --dark: #183b56;
   --ligth: #fff;
   --reserved-blue: #1565d8;
---paragraph-color: #5A7184;
+  --paragraph-color: #5a7184;
   --font: "Open Sans", sans-serif;
   --font-secondary: "HK Grotesk", sans-serif;
 }
 
-
 /*sticky footer*/
-html, body {
+html,
+body {
   box-sizing: border-box;
   height: 100%;
   padding: 0;
@@ -31,15 +31,15 @@ html, body {
   display: flex;
   flex-direction: column;
 }
-header, footer{
-flex-grow: 0;
-flex-shrink: 0;
+header,
+footer {
+  flex-grow: 0;
+  flex-shrink: 0;
 }
 
-.body{
+body {
   flex-grow: 1;
 }
-
 
 /*sticky footer - end*/
 
@@ -57,8 +57,15 @@ h6 {
   margin: 0;
 }
 
+h4 {
+  font-family: var(--font);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 25px;
+}
+
 p {
-  font-family: 'Open Sans';
+  font-family: "Open Sans";
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
@@ -67,8 +74,13 @@ p {
   margin: 0;
 }
 a {
-  text-decoration: none;
   color: #1565d8;
+  text-decoration: none;
+
+  font-family: var(--font);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
 }
 
 a:hover {
@@ -80,11 +92,11 @@ a:hover {
   height: 46px;
   width: 137px;
   background: var(--primary);
-  color: white;
+  color: var(--ligth);
   border-radius: 30px;
 }
 
-.btn-primary:hover{
+.btn-primary:hover {
   background: #3bbe88;
   cursor: pointer;
 }
@@ -95,7 +107,7 @@ a:hover {
   border-color: var(--primary);
 }
 
-.btn-secondary{
+.btn-secondary {
   font-weight: 700;
   font-size: 16px;
   line-height: 22px;
@@ -108,7 +120,7 @@ a:hover {
   align-items: center;
 }
 
-.btn-secondary:hover{
+.btn-secondary:hover {
   border: 2px solid #2279f3;
   background: #2279f3;
   color: var(--ligth);
@@ -124,12 +136,9 @@ a:hover {
   flex-direction: column;
 }
 
-form{
-  
-
-
+form {
 }
 .mx-auto {
-	margin-left: auto;
-	margin-right: auto;
+  margin-left: auto;
+  margin-right: auto;
 }

@@ -23,22 +23,11 @@
 
 footer a {
   color: var(--dark);
-}
-
-footer a {
-  font-family: var(--font);
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 22px;
   margin-bottom: 24px;
 }
 
 footer h4 {
   color: var(--dark);
-  font-family: var(--font);
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 25px;
   margin-bottom: 31px;
 }
 
