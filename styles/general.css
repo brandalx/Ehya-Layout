@@ -57,6 +57,21 @@ h6 {
   margin: 0;
 }
 
+h1 {
+  font-size: 3.5em;
+}
+
+h2 {
+  font-size: 3em;
+}
+
+h3 {
+  font-size: 2.5em;
+}
+
+h4 {
+}
+
 h4 {
   font-family: var(--font);
   font-weight: 700;
