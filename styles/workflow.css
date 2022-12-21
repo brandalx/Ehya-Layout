@@ -11,7 +11,7 @@
   text-align: center;
 }
 
-.workflow__title h1 {
+.workflow__title h3 {
   font-family: var(--font-secondary);
 
   font-weight: 700;
@@ -49,7 +49,7 @@
   padding: 55px 0px;
 }
 
-.workflow-blocks h3 {
+.workflow-blocks h4 {
   margin-bottom: 16px;
   color: var(--dark);
 }
