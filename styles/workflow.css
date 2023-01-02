@@ -58,7 +58,7 @@
 }
 
 .multiOS_block {
-  max-width: 90%;
+  /* max-width: 90%; */
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -66,7 +66,7 @@
   background: #e6f8fc;
 }
 .compatibility_block {
-  max-width: 90%;
+  /* max-width: 90%; */
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -74,7 +74,7 @@
   background: #ebf8f3;
 }
 .integration_block {
-  max-width: 90%;
+  /* max-width: 90%; */
   display: flex;
   justify-content: center;
   flex-direction: column;
