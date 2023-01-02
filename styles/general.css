@@ -165,37 +165,37 @@ form {
 
 @media (min-width: 576px) {
   .text-sm-start {
-    text-align: start;
+    text-align: start !important;
   }
   .text-sm-end {
-    text-align: end;
+    text-align: end !important;
   }
   .text-sm-center {
-    text-align: center;
+    text-align: center !important;
   }
 }
 
 @media (min-width: 768px) {
   .text-md-start {
-    text-align: start;
+    text-align: start !important;
   }
   .text-md-end {
-    text-align: end;
+    text-align: end !important;
   }
   .text-md-center {
-    text-align: center;
+    text-align: center !important;
   }
 }
 
 @media (min-width: 992px) {
   .text-lg-start {
-    text-align: start;
+    text-align: start !important;
   }
   .text-lg-end {
-    text-align: end;
+    text-align: end !important;
   }
   .text-lg-center {
-    text-align: center;
+    text-align: center !important;
   }
 }
 
@@ -207,4 +207,64 @@ form {
 }
 .text-center {
   text-align: center;
+}
+
+@media (min-width: 576px) {
+  .flex-sm-between {
+    display: flex;
+    justify-content: space-between;
+  }
+  .flex-sm-row {
+    display: flex;
+    flex-direction: row;
+  }
+  .flex-sm-column {
+    display: flex;
+    flex-direction: column;
+  }
+  .flex-sm-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+@media (min-width: 768px) {
+  .flex-md-between {
+    display: flex;
+    justify-content: space-between;
+  }
+  .flex-md-row {
+    display: flex;
+    flex-direction: row;
+  }
+  .flex-md-column {
+    display: flex;
+    flex-direction: column;
+  }
+  .flex-md-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+@media (min-width: 992px) {
+  .flex-lg-between {
+    display: flex;
+    justify-content: space-between;
+  }
+  .flex-lg-row {
+    display: flex;
+    flex-direction: row;
+  }
+  .flex-lg-column {
+    display: flex;
+    flex-direction: column;
+  }
+  .flex-lg-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 }
