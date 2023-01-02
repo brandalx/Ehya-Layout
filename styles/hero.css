@@ -29,11 +29,13 @@ p {
 }
 .email {
   height: 60px;
-  width: 415px;
+  width: 100%;
+  /* width: 415px; */
 }
 .email__center {
   height: 60px;
-  width: 415px;
+  /* width: 415px; */
+  width: 100%;
   border: 1px solid #e5eaf4;
   position: relative;
   border-radius: 30px;
@@ -51,6 +53,8 @@ form {
   justify-content: space-between;
 }
 .email__input-block {
+  padding-left: 15px;
+  border-radius: 30px;
   margin-left: 16px;
   z-index: 2;
   font-family: "Open Sans";
@@ -60,6 +64,16 @@ form {
   line-height: 28px;
   border: none;
   background: #ffffff00;
+  transition: all 0.3s;
+}
+.email__input-block:focus {
+  padding-left: 15px;
+  outline: none;
+  /* outline: 1px solid var(--reserved-blue); */
+}
+
+.email__input-block::placeholder {
+  outline: none;
 }
 
 .hero__scroll-down {
