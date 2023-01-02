@@ -162,3 +162,49 @@ form {
 .d-flex {
   display: flex;
 }
+
+@media (min-width: 576px) {
+  .text-sm-start {
+    text-align: start;
+  }
+  .text-sm-end {
+    text-align: end;
+  }
+  .text-sm-center {
+    text-align: center;
+  }
+}
+
+@media (min-width: 768px) {
+  .text-md-start {
+    text-align: start;
+  }
+  .text-md-end {
+    text-align: end;
+  }
+  .text-md-center {
+    text-align: center;
+  }
+}
+
+@media (min-width: 992px) {
+  .text-lg-start {
+    text-align: start;
+  }
+  .text-lg-end {
+    text-align: end;
+  }
+  .text-lg-center {
+    text-align: center;
+  }
+}
+
+.text-start {
+  text-align: start;
+}
+.text-end {
+  text-align: end;
+}
+.text-center {
+  text-align: center;
+}
