@@ -4,14 +4,14 @@
 }
 
 .save-time .row {
-  justify-content: space-between;
-  align-items: center;
+  /* justify-content: space-between;
+  align-items: center; */
 }
 
 .save-time .container {
   min-height: 855px;
-  display: flex;
-  align-items: center;
+  /* display: flex;
+  align-items: center; */
 }
 
 .save-time_left img {
