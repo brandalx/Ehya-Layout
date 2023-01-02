@@ -227,6 +227,9 @@ form {
   .justify-md-between {
     justify-content: space-between !important;
   }
+  .justify-md-center {
+    justify-content: center !important;
+  }
   .flex-md-row {
     flex-direction: row !important;
   }
@@ -242,6 +245,9 @@ form {
   .justify-lg-between {
     justify-content: space-between !important;
   }
+  .justify-sm-center {
+    justify-content: center !important;
+  }
   .flex-lg-row {
     flex-direction: row !important;
   }
@@ -255,6 +261,9 @@ form {
 
 .justify-between {
   justify-content: space-between;
+}
+.justify-center {
+  justify-content: center;
 }
 .flex-row {
   flex-direction: row;
