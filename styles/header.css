@@ -20,13 +20,12 @@
 }
 
 .header-menu__link {
-  font-family: 'Open Sans';
+  font-family: "Open Sans";
   font-weight: 600;
-  font-size: 16px;
+  font-size: 1em;
   line-height: 22px;
   text-align: center;
   margin-right: 40px;
   color: var(--dark);
   text-decoration: none;
 }
-

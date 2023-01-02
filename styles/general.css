@@ -76,7 +76,7 @@ h4 {
 .h4_special {
   font-family: var(--font);
   font-weight: 700;
-  font-size: 18px;
+  font-size: 1.125em;
   line-height: 25px;
 }
 
@@ -84,7 +84,7 @@ p {
   font-family: "Open Sans";
   font-style: normal;
   font-weight: 400;
-  font-size: 18px;
+  font-size: 1.125em;
   line-height: 32px;
   color: var(--paragraph-color);
   margin: 0;
@@ -95,7 +95,7 @@ a {
 
   font-family: var(--font);
   font-weight: 400;
-  font-size: 16px;
+  font-size: 1em;
   line-height: 22px;
 }
 
@@ -125,7 +125,7 @@ a:hover {
 
 .btn-secondary {
   font-weight: 700;
-  font-size: 16px;
+  font-size: 1em;
   line-height: 22px;
   height: 48px;
   border: 2px solid var(--reserved-blue);
@@ -140,11 +140,6 @@ a:hover {
   border: 2px solid #2279f3;
   background: #2279f3;
   color: var(--ligth);
-  border-radius: 8px;
-  display: flex;
-  padding: 0 20px;
-  cursor: pointer;
-  align-items: center;
 }
 
 .footer-element-center {
