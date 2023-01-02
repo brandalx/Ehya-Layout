@@ -1,0 +1,80 @@
+.membership {
+    background: #36b37e;
+    min-height: 890px;
+    padding-bottom: 80px;
+  }
+  
+  .membership .container {
+    min-height: 890px;
+  }
+  
+  .membership .container .row {
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .membership p,
+  h2,
+  h3,
+  h4 {
+    color: #ffffff;
+  }
+  
+  .membership h2 {
+    margin-bottom: 50px;
+  }
+  
+  .membership h3 {
+    margin-bottom: 30px;
+  }
+  
+  .text {
+    margin-top: 130px;
+    /* max-height: 100%;
+    display: flex;
+    flex-direction: column; */
+  }
+  
+  
+  .text2 {
+    /* display: flex;
+  
+    flex-direction: column;
+    justify-content: flex-end; */
+  }
+  
+  .image {
+  }
+  
+  .blockss {
+    display: flex;
+    max-height: 100%;
+    flex-direction: column;
+  }
+  
+  .membership-benefits-left {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .membership-benefits-left img {
+    width: 64px;
+    height: 64px;
+  }
+  .membership-benefits__block {
+    display: flex;
+  }
+  .membership-benefits-right {
+    display: flex;
+    flex-direction: column;
+  }
+  .membership-benefits-right img {
+    width: 64px;
+    height: 64px;
+  }
+  
+  .benefits-text__wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+  

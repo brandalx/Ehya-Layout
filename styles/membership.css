@@ -1,0 +1,45 @@
+.membership {
+  background: #36b37e;
+  min-height: 890px;
+  padding: 80px 0;
+
+  justify-content: space-between;
+  align-items: center;
+}
+.membership h2 {
+  color: white;
+}
+.membership h3 {
+  color: white;
+}
+.membership h4 {
+  color: white;
+}
+.membership p {
+  color: white;
+}
+
+.membership .container {
+  justify-content: space-between;
+  align-items: center;
+}
+.membership .container .row {
+  justify-content: space-between;
+  align-items: center;
+}
+
+.membership-benefits__block {
+  display: flex;
+  justify-content: flex-start;
+}
+.membership-benefits__block img {
+  max-width: 64px;
+  max-height: 64px;
+}
+.membership h3,
+h2 {
+  margin-bottom: 30px;
+}
+.membership-image {
+  width: 100%;
+}
