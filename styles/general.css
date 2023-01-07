@@ -51,3 +51,7 @@ hr {
   height: 1px;
   background: #e3e7ed;
 }
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
