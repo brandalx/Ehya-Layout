@@ -1,4 +1,38 @@
 /*here goes all non-query styles*/
+.header {
+  height: 100px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.header-main {
+  background: #ebf7f2;
+}
+.header__logo {
+  display: flex;
+  align-items: center;
+}
+.header__nav {
+  display: flex;
+  justify-content: flex-end;
+}
+.header-nav {
+  display: flex;
+  align-items: center;
+}
+.header-nav__links {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+  text-align: center;
+  color: var(--dark);
+  text-decoration: none;
+  margin-right: 40px;
+}
+.header-nav__links:hover {
+  color: var(--primary);
+}
 
 /*here goes responsive styles*/
 @media screen and (max-width: 575px) {

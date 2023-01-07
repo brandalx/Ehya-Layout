@@ -6,6 +6,10 @@
 
 @import "./tools/grid.css";
 @import "./tools/page.css";
+@import "./tools/display.css";
+@import "./tools/order.css";
+@import "./tools/text.css";
+@import "./tools/button.css";
 
 /*blocks styles*/
 
