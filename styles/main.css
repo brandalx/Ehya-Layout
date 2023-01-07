@@ -4,18 +4,18 @@
 
 /*Tools styles*/
 
-@import "./grid.css";
+@import "./tools/grid.css";
+@import "./tools/page.css";
 
 /*blocks styles*/
 
-@import "./page.css";
-@import "./header.css";
-@import "./hero.css";
-@import "./workflow.css";
-@import "./footer.css";
-@import "./footer.css";
-@import "./customers.css";
-@import "./save-time.css";
-@import "./membership.css";
-@import "./logos.css";
-@import "./early-access.css";
+@import "./blocks/header.css";
+@import "./blocks//hero.css";
+@import "./blocks/workflow.css";
+@import "./blocks/footer.css";
+@import "./blocks/footer.css";
+@import "./blocks/customers.css";
+@import "./blocks/save-time.css";
+@import "./blocks/membership.css";
+@import "./blocks/logos.css";
+@import "./blocks/early-access.css";
