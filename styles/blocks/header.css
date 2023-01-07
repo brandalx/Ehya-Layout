@@ -10,6 +10,7 @@
   background: #ebf7f2;
 }
 .header__logo {
+  height: 100%;
   display: flex;
   align-items: center;
 }
