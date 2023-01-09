@@ -1,26 +1,198 @@
 /*here goes all non-query styles*/
+.hero {
+  background: #ebf7f2;
+  padding: 30px 0;
+  text-align: center;
+}
+
+.hero__content {
+  margin-bottom: 30px;
+}
+
+.hero__scroll-down {
+  width: 56px;
+  height: 56px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--primary);
+  margin-top: 16px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.hero-media {
+  max-width: 100%;
+}
+.background-form {
+  margin-top: 46px;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  background: white;
+  height: 58px;
+  border-radius: 30px;
+}
+.background-form input {
+  width: auto;
+  border-radius: 30px 0px 0px 30px;
+
+  outline: none;
+  border: none;
+}
+.background-form input::placeholder {
+  padding-left: 30px;
+}
+.background-form input:focus {
+  padding-left: 30px;
+}
+.btn-form {
+  justify-content: center;
+  text-align: center;
+  width: 30%;
+  margin-right: 10px;
+}
 
 /*here goes responsive styles*/
 @media screen and (max-width: 575px) {
   /* styles that apply to screen widths smaller than 576px go here */
+  .background-form {
+    height: 132px;
+    width: 100%;
+    flex-direction: column;
+  }
+  .background-form input::placeholder {
+    text-align: center;
+  }
+  .btn-form {
+    justify-content: center;
+    text-align: center;
+    width: 90%;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+  }
+  .background-form input::placeholder {
+    padding-left: 0px;
+  }
+  .background-form input:focus {
+    padding-left: 0px;
+  }
+  .background-form input {
+    margin-top: 20px;
+  }
 }
 
 /*!!!those styles will rewrite previous*/
 /*it will work FROM 576px INCLUDED*/
 @media screen and (min-width: 576px) {
+  .background-form {
+    height: 132px;
+    width: 100%;
+    flex-direction: column;
+  }
+  .background-form {
+    height: 132px;
+    width: 100%;
+    flex-direction: column;
+  }
+  .background-form input::placeholder {
+    text-align: center;
+  }
+  .btn-form {
+    justify-content: center;
+    text-align: center;
+    width: 90%;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+  }
+  .background-form input::placeholder {
+    padding-left: 0px;
+  }
+  .background-form input:focus {
+    padding-left: 0px;
+  }
+  .background-form input {
+    margin-top: 20px;
+  }
 }
 
 /*!!!those styles will rewrite previous*/
 /*it will work FROM 768px INCLUDED*/
 @media screen and (min-width: 768px) {
+  .background-form {
+    height: 58px;
+    align-items: center;
+    width: 100%;
+    flex-direction: row;
+  }
+  .background-form input::placeholder {
+    text-align: center;
+  }
+  .btn-form {
+    justify-content: center;
+    text-align: center;
+    width: 20%;
+
+    margin-right: 10px;
+    margin-bottom: 0px;
+    border-radius: 30px;
+  }
+  .background-form input::placeholder {
+    padding-left: 30px;
+  }
+  .background-form input:focus {
+    padding-left: 30px;
+  }
+  .background-form input {
+    margin-top: 0px;
+  }
 }
 
 /*!!!those styles will rewrite previous*/
 /*it will work FROM 992px INCLUDED*/
 @media screen and (min-width: 992px) {
+  .btn-form {
+    justify-content: center;
+    text-align: center;
+    width: 40%;
+    margin-right: 10px;
+  }
+  .hero {
+    display: flex;
+    align-items: center;
+    padding: 50px 0;
+    height: calc(100vh - var(--header-height));
+    min-height: calc(680px - var(--header-height));
+    text-align: left;
+  }
+
+  .hero__content {
+    margin-bottom: 0px;
+  }
+
+  .hero__main {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    position: relative;
+  }
+
+  .hero__scroll-down {
+    margin-top: 10px;
+    margin-left: 0;
+  }
 }
 
 /*!!!those styles will rewrite previous*/
 /*it will work FROM 1200px INCLUDED*/
 @media screen and (min-width: 1200px) {
+  .btn-form {
+    justify-content: center;
+    text-align: center;
+    width: 30%;
+    margin-right: 10px;
+  }
 }

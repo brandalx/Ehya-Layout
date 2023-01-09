@@ -32,6 +32,15 @@
   border-color: var(--primary);
 }
 
+.btn-primary-reversed {
+  background: var(--primary);
+  color: var(--ligth);
+  border-color: var(--primary);
+}
+.btn-primary-reversed:hover {
+  background: #3fc48c;
+}
+
 .btn-link {
   padding: 0 10px;
 }
