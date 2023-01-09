@@ -1,26 +1,93 @@
-/*here goes all non-query styles*/
-
-/*here goes responsive styles*/
-@media screen and (max-width: 575px) {
-  /* styles that apply to screen widths smaller than 576px go here */
+.customer {
+  display: block;
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  padding: 64px 0;
+}
+.customer__picture {
+  max-width: min-content;
 }
 
-/*!!!those styles will rewrite previous*/
-/*it will work FROM 576px INCLUDED*/
-@media screen and (min-width: 576px) {
+.customer-items {
+  margin: 36px 0;
 }
 
-/*!!!those styles will rewrite previous*/
-/*it will work FROM 768px INCLUDED*/
+.customer-item {
+  padding: 15px 0;
+  color: #5a7184;
+
+  height: 100%;
+}
+.customer__picture {
+  width: 100%;
+}
+
+.customer-item__title {
+  color: var(--dark);
+  font-family: var(--font-secondary);
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.customer-item__inner {
+  padding: 0 20px;
+  border-left: 2px solid transparent;
+}
+
+.customer-item__inner > *:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.customer-item_active {
+  background: #f7f8f9;
+}
+
+.customer-item_active .customer-item__inner {
+  border-color: currentColor;
+}
+
+.customer__picture-container {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 @media screen and (min-width: 768px) {
+  .customer {
+    padding: 80px 0;
+  }
+
+  .customer-item {
+    text-align: center;
+  }
+
+  .customer-item__title {
+    font-size: 20px;
+  }
 }
 
-/*!!!those styles will rewrite previous*/
-/*it will work FROM 992px INCLUDED*/
 @media screen and (min-width: 992px) {
+  .customer-item {
+    text-align: left;
+  }
 }
 
-/*!!!those styles will rewrite previous*/
-/*it will work FROM 1200px INCLUDED*/
 @media screen and (min-width: 1200px) {
+  .customer {
+    padding: 100px 0;
+  }
+
+  .customer-items {
+    margin: 45px 0;
+  }
+
+  .customer-item__title {
+    font-size: 24px;
+  }
+
+  .customer__picture-container {
+    justify-content: flex-end;
+  }
 }
