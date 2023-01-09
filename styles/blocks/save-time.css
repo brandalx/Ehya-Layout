@@ -1,4 +1,22 @@
 /*here goes all non-query styles*/
+.save-time__picture-container {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.save-time {
+  background: #f9fbfe;
+  padding: 64px 0;
+}
+
+/* picture */
+.save-time__picture {
+  display: block;
+  width: auto;
+  height: auto;
+  max-width: 100%;
+}
 
 /*here goes responsive styles*/
 @media screen and (max-width: 575px) {
@@ -13,11 +31,17 @@
 /*!!!those styles will rewrite previous*/
 /*it will work FROM 768px INCLUDED*/
 @media screen and (min-width: 768px) {
+  .save-time {
+    padding: 80px 0;
+  }
 }
 
 /*!!!those styles will rewrite previous*/
 /*it will work FROM 992px INCLUDED*/
 @media screen and (min-width: 992px) {
+  .save-time {
+    padding: 72px 0;
+  }
 }
 
 /*!!!those styles will rewrite previous*/
