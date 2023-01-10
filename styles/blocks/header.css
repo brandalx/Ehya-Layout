@@ -89,6 +89,14 @@
     margin-right: 0;
     padding: 15px 0;
   }
+
+  [data-open-menu='true'] .header-nav_fixed {
+    display: block !important;
+  }
+
+  [data-open-menu='false'] .header-nav_fixed {
+    display: none !important;
+  }
 }
 
 @media screen and (min-width: 992px) {
@@ -97,4 +105,20 @@
     align-items: center;
     justify-content: flex-end;
   }
+}
+
+[data-open-menu='true'] #burger {
+  display: none !important;
+}
+
+[data-open-menu='false'] #burger {
+  display: block !important;
+}
+
+[data-open-menu='true'] #close {
+  display: block !important;
+}
+
+[data-open-menu='false'] #close {
+  display: none !important;
 }
