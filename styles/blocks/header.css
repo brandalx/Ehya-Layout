@@ -3,8 +3,17 @@
   --header-bg: #ebf7f2;
   --header-main: 64px;
   height: var(--header-main);
+}
+
+.header__container {
+  width: 100%;
+  height: var(--header-main);
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 999;
+  background: var(--header-bg);
   display: flex;
-  flex-wrap: wrap;
   align-items: center;
 }
 
@@ -72,6 +81,7 @@
     left: 0;
     width: 100%;
     background: var(--header-bg);
+    display: block;
   }
 
   .header-nav__link {
