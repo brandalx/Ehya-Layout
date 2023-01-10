@@ -1,4 +1,69 @@
-/*here goes all non-query styles*/
+.memberships {
+  background: var(--primary);
+  color: #fff;
+  padding: 44px 0;
+  text-align: center;
+}
+.memberships__content {
+  margin-bottom: 56px;
+}
+
+.memberships__items {
+  margin-top: 38px;
+}
+
+.memberships__picture-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 48px;
+  width: 100%;
+}
+
+.membership {
+  text-align: left;
+  margin-bottom: 34px;
+}
+
+.membership__title {
+  font-weight: 600;
+  font-size: 16px;
+  font-family: var(--font-secondary);
+}
+
+.membership__content {
+  font-size: 14px;
+}
+
+.membership__content > *:not(:last-child) {
+  margin-bottom: 8px;
+}
+
+.membership__icon {
+  margin-right: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 14px;
+  width: 30px;
+  height: 30px;
+  border-radius: 4px;
+  background: var(--dark);
+  color: #fff;
+}
+.memberships__picture {
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  display: block;
+}
+.membership__icon > svg {
+  width: 14px;
+  height: 14px;
+}
+
+.membership__icon_reverse {
+  background: #fff;
+}
 
 /*here goes responsive styles*/
 @media screen and (max-width: 575px) {
@@ -8,11 +73,47 @@
 /*!!!those styles will rewrite previous*/
 /*it will work FROM 576px INCLUDED*/
 @media screen and (min-width: 576px) {
+  .membership__icon > svg {
+    width: 24px;
+    height: 24px;
+  }
+  .membership {
+    display: flex;
+    margin-bottom: 42px;
+  }
+  .membership__content {
+    font-size: 16px;
+  }
+
+  .membership__title {
+    font-size: 22px;
+  }
+
+  .membership__icon {
+    width: 64px;
+    height: 64px;
+    border-radius: 8px;
+    margin-bottom: 0px;
+  }
 }
 
 /*!!!those styles will rewrite previous*/
 /*it will work FROM 768px INCLUDED*/
 @media screen and (min-width: 768px) {
+  .memberships__items {
+    margin-top: 48px;
+  }
+
+  .memberships__picture-container {
+    margin-top: 72px;
+  }
+  .memberships__content {
+    margin-bottom: 72px;
+  }
+  .memberships {
+    padding: 72px 0;
+    text-align: left;
+  }
 }
 
 /*!!!those styles will rewrite previous*/
@@ -23,4 +124,14 @@
 /*!!!those styles will rewrite previous*/
 /*it will work FROM 1200px INCLUDED*/
 @media screen and (min-width: 1200px) {
+  .memberships__items {
+    margin-top: 56px;
+  }
+
+  .membership {
+    margin-bottom: 64px;
+  }
+  .memberships {
+    padding: 100px 0;
+  }
 }
