@@ -7,8 +7,8 @@
   --dark: #183b56;
   --info: #1565d8;
   --ligth: #fff;
-  --font: "Open Sans", sans-serif;
-  --font-secondary: "HK Grotesk", sans-serif;
+  --font: 'Open Sans', sans-serif;
+  --font-secondary: 'HK Grotesk', sans-serif;
 }
 
 * {
@@ -54,4 +54,8 @@ hr {
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
+}
+
+.scroll-disable {
+  overflow: hidden;
 }
