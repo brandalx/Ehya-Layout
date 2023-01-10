@@ -1,36 +1,38 @@
 /*here goes all non-query styles*/
 .header {
-  height: 100px;
+  --header-bg: #ebf7f2;
+  --header-main: 64px;
+  height: var(--header-main);
   display: flex;
   flex-wrap: wrap;
   align-items: center;
 }
 
 .header-main {
-  background: #ebf7f2;
+  background: var(--header-bg);
 }
+
 .header__logo {
   height: 100%;
   display: flex;
   align-items: center;
 }
-.header__nav {
-  display: flex;
-  justify-content: flex-end;
-}
+
 .header-nav {
   display: flex;
+  justify-content: flex-end;
   align-items: center;
 }
-.header-nav__links {
+
+.header-nav__link {
   font-weight: 600;
   font-size: 16px;
   line-height: 22px;
-  text-align: center;
   color: var(--dark);
   text-decoration: none;
   margin-right: 40px;
 }
+
 .header-nav__links:hover {
   color: var(--primary);
 }
@@ -48,6 +50,9 @@
 /*!!!those styles will rewrite previous*/
 /*it will work FROM 768px INCLUDED*/
 @media screen and (min-width: 768px) {
+  .header {
+    --header-main: 100px;
+  }
 }
 
 /*!!!those styles will rewrite previous*/
@@ -58,4 +63,22 @@
 /*!!!those styles will rewrite previous*/
 /*it will work FROM 1200px INCLUDED*/
 @media screen and (min-width: 1200px) {
+}
+
+@media screen and (max-width: 991px) {
+  .header-nav_fixed {
+    position: fixed;
+    top: var(--header-main);
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: var(--header-bg);
+    display: block;
+  }
+
+  .header-nav__link {
+    display: block;
+    margin-right: 0;
+    padding: 15px 0;
+  }
 }

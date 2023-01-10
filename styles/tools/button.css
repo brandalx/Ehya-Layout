@@ -1,46 +1,50 @@
 .btn {
-  background: transparent;
-  height: 48px;
-  font-weight: bold;
-  cursor: pointer;
-  padding: 0 20px;
-  text-decoration: none;
-  display: inline-flex;
-  align-items: center;
-  border: none;
+	background: transparent;
+	height: 48px;
+	font-weight: bold;
+	cursor: pointer;
+	padding: 0 20px;
+	text-decoration: none;
+	display: inline-flex;
+	align-items: center;
+	border: none;
 }
 
 .btn-outline {
-  border: 2px solid currentColor;
+	border: 2px solid currentColor;
 }
 
 .btn-rounded {
-  border-radius: 24px;
+	border-radius: 24px;
 }
 
 .btn-rounded-full {
-  border-radius: 50%;
+	border-radius: 50%;
 }
 
 .btn-primary {
-  color: var(--primary);
+	color: var(--primary);
 }
 
 .btn-primary:hover {
-  background: var(--primary);
-  color: var(--ligth);
-  border-color: var(--primary);
+	background: var(--primary);
+	color: var(--ligth);
+	border-color: var(--primary);
 }
 
 .btn-primary-reversed {
-  background: var(--primary);
-  color: var(--ligth);
-  border-color: var(--primary);
+	background: var(--primary);
+	color: var(--ligth);
+	border-color: var(--primary);
 }
 .btn-primary-reversed:hover {
-  background: #3fc48c;
+	background: #3fc48c;
 }
 
 .btn-link {
-  padding: 0 10px;
+	padding: 0 10px;
+}
+
+.btn-icon {
+	padding: 0 10px;
 }
