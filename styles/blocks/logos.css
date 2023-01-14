@@ -5,7 +5,7 @@
   text-align: center;
 }
 
-.logos__content {
+.logos__blocks {
   margin-top: 50px;
 }
 
@@ -27,9 +27,6 @@
   text-align: center;
 }
 
-.line {
-}
-
 /*!!!those styles will rewrite previous*/
 /*it will work FROM 768px INCLUDED*/
 @media screen and (min-width: 768px) {
@@ -44,7 +41,6 @@
   .logos {
     padding: 100px 0;
   }
-
   .logos__blocks {
     margin-top: 70px;
   }
