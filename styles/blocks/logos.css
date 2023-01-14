@@ -30,37 +30,22 @@
 .line {
 }
 
-/*here goes responsive styles*/
-@media screen and (max-width: 575px) {
-  /* styles that apply to screen widths smaller than 576px go here */
-}
-
-/*!!!those styles will rewrite previous*/
-/*it will work FROM 576px INCLUDED*/
-@media screen and (min-width: 576px) {
-}
-
 /*!!!those styles will rewrite previous*/
 /*it will work FROM 768px INCLUDED*/
 @media screen and (min-width: 768px) {
-  .partners {
+  .logos {
     padding: 80px 0;
   }
 }
 
 /*!!!those styles will rewrite previous*/
-/*it will work FROM 992px INCLUDED*/
-@media screen and (min-width: 992px) {
-}
-
-/*!!!those styles will rewrite previous*/
 /*it will work FROM 1200px INCLUDED*/
 @media screen and (min-width: 1200px) {
-  .partners {
+  .logos {
     padding: 100px 0;
   }
 
-  .partners__content {
+  .logos__blocks {
     margin-top: 70px;
   }
 }
