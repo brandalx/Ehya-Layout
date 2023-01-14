@@ -1,5 +1,35 @@
 /*here goes all non-query styles*/
 
+.logos {
+  padding: 56px 0;
+  text-align: center;
+}
+
+.logos__content {
+  margin-top: 50px;
+}
+
+.logos-list {
+  padding: 20px;
+}
+
+.logos-img {
+  margin: 0 auto;
+
+  width: 100%;
+  display: block;
+  height: auto;
+  max-width: 130px;
+}
+
+.logos {
+  padding: 56px 0;
+  text-align: center;
+}
+
+.line {
+}
+
 /*here goes responsive styles*/
 @media screen and (max-width: 575px) {
   /* styles that apply to screen widths smaller than 576px go here */
@@ -13,6 +43,9 @@
 /*!!!those styles will rewrite previous*/
 /*it will work FROM 768px INCLUDED*/
 @media screen and (min-width: 768px) {
+  .partners {
+    padding: 80px 0;
+  }
 }
 
 /*!!!those styles will rewrite previous*/
@@ -23,4 +56,11 @@
 /*!!!those styles will rewrite previous*/
 /*it will work FROM 1200px INCLUDED*/
 @media screen and (min-width: 1200px) {
+  .partners {
+    padding: 100px 0;
+  }
+
+  .partners__content {
+    margin-top: 70px;
+  }
 }
