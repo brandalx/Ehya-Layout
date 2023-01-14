@@ -1,26 +1,106 @@
 /*here goes all non-query styles*/
 
+.early-access__img-wrapper {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.early-access .background-form-bottom {
+  border: 1px solid #e5eaf4;
+}
+
+.early-access__img {
+  display: block;
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  margin-top: 45px;
+}
+
+.early-access {
+  background: #f9fbfe;
+  text-align: center;
+}
+
+.early-access__wrapper {
+  padding: 64px 0;
+}
+.early-access .background-form-bottom {
+  margin-top: 46px;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  background: white;
+  height: 58px;
+  border-radius: 30px;
+}
+.early-access .background-form-bottom input {
+  width: auto;
+  border-radius: 30px 0px 0px 30px;
+
+  outline: none;
+  border: none;
+}
+.early-access .background-form-bottom input::placeholder {
+  padding-left: 30px;
+}
+.early-access .background-form-bottom input:focus {
+  padding-left: 30px;
+}
+.early-access .btn-form-bottom {
+  justify-content: center;
+  text-align: center;
+
+  margin-right: 10px;
+}
+
 /*here goes responsive styles*/
 @media screen and (max-width: 575px) {
+  .early-access .btn-form-bottom {
+    width: 30%;
+  }
+
   /* styles that apply to screen widths smaller than 576px go here */
 }
 
 /*!!!those styles will rewrite previous*/
 /*it will work FROM 576px INCLUDED*/
 @media screen and (min-width: 576px) {
+  .early-access .btn-form-bottom {
+    width: 30%;
+  }
 }
 
 /*!!!those styles will rewrite previous*/
 /*it will work FROM 768px INCLUDED*/
 @media screen and (min-width: 768px) {
+  .early-access .btn-form-bottom {
+    width: 20%;
+  }
+  .early-access__wrapper {
+    padding: 80px 0;
+  }
 }
 
 /*!!!those styles will rewrite previous*/
 /*it will work FROM 992px INCLUDED*/
 @media screen and (min-width: 992px) {
+  .early-access .btn-form-bottom {
+    width: 40%;
+  }
+  .early-access {
+    text-align: start;
+  }
+  .early-access__wrapper {
+    padding: 72px 0;
+  }
 }
 
 /*!!!those styles will rewrite previous*/
 /*it will work FROM 1200px INCLUDED*/
 @media screen and (min-width: 1200px) {
+  .early-access .btn-form-bottom {
+    width: 30%;
+  }
 }
