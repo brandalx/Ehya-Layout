@@ -1,7 +1,7 @@
 /*here goes all non-query styles*/
 
 .logos {
-  padding: 56px 0;
+  padding-top: 56px;
   text-align: center;
 }
 
@@ -23,7 +23,7 @@
 }
 
 .logos {
-  padding: 56px 0;
+  padding-top: 56px;
   text-align: center;
 }
 
@@ -31,7 +31,7 @@
 /*it will work FROM 768px INCLUDED*/
 @media screen and (min-width: 768px) {
   .logos {
-    padding: 80px 0;
+    padding-top: 80px;
   }
 }
 
@@ -39,7 +39,7 @@
 /*it will work FROM 1200px INCLUDED*/
 @media screen and (min-width: 1200px) {
   .logos {
-    padding: 100px 0;
+    padding-top: 100px;
   }
   .logos__blocks {
     margin-top: 70px;

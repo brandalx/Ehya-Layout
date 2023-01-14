@@ -1,5 +1,64 @@
 /*here goes all non-query styles*/
 
+.workflow {
+  padding: 36px 0;
+}
+
+.workflow__content {
+  text-align: center;
+  margin-bottom: 36px;
+}
+.workflow .row {
+  justify-content: center;
+}
+
+.workflow-element__blue {
+  background: #e5f8fb;
+  color: var(--info);
+}
+
+.workflow-element__red {
+  color: var(--danger);
+  background: #fdeeea;
+}
+
+.workflow-element {
+  margin-bottom: 15px;
+
+  text-align: center;
+  border-radius: 16px;
+  padding: 22px 0px 28px;
+}
+.workflow-element__green {
+  background: #ebf7f2;
+  color: var(--primary);
+}
+
+.workflow-el__wrapper {
+  margin-top: 28px;
+  display: flex;
+  justify-content: center;
+}
+
+.workflow-blocks {
+  line-height: 1.45;
+  color: var(--dark);
+  font-size: 22px;
+}
+
+.workflow-element__img {
+  margin: 0 10px;
+  border: 2px solid;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  flex-shrink: 0;
+}
+
+.workflow-element:not(:last-child) {
+  margin-bottom: 20px;
+}
+
 /*here goes responsive styles*/
 @media screen and (max-width: 575px) {
   /* styles that apply to screen widths smaller than 576px go here */
@@ -13,6 +72,9 @@
 /*!!!those styles will rewrite previous*/
 /*it will work FROM 768px INCLUDED*/
 @media screen and (min-width: 768px) {
+  .workflow {
+    padding: 80px 0;
+  }
 }
 
 /*!!!those styles will rewrite previous*/
@@ -23,4 +85,24 @@
 /*!!!those styles will rewrite previous*/
 /*it will work FROM 1200px INCLUDED*/
 @media screen and (min-width: 1200px) {
+  .workflow-element {
+    padding: 48px;
+    margin-bottom: 0px;
+  }
+
+  .workflow-element__img {
+    width: 56px;
+    height: 56px;
+    margin: 0 12px;
+  }
+  .workflow__content {
+    margin-bottom: 56px;
+  }
+
+  .workflow-blocks {
+    font-size: 24px;
+  }
+  .workflow {
+    padding: 100px 0;
+  }
 }

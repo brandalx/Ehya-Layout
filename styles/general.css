@@ -45,7 +45,7 @@ a:hover {
 }
 
 .line {
-  margin: 80px 0;
+  margin-top: 80px;
   border-spacing: 15px;
   border: dashed 1px #e3e7ed;
   display: block;
