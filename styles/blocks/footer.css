@@ -1,18 +1,156 @@
 /*here goes all non-query styles*/
+.page__footer {
+  background: #fff;
+  padding: 48px 0 64px;
+}
+
+.page__footer__heading {
+  font-size: 16px;
+  font-weight: bold;
+  font-family: var(--font);
+  margin-bottom: 20px;
+}
+
+.page__footer__content {
+  text-align: center;
+}
+
+.footer-menu {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 40px;
+}
+
+.footer-menu__links {
+  color: var(--dark);
+}
+
+.footer-menu__links:hover {
+  color: var(--primary);
+}
+
+.page__footer__content > *:not(:last-child),
+.footer-menu > *:not(:last-child),
+.footer-bottom > *:not(:last-child) {
+  margin-bottom: 16px;
+}
+
+.footer-bottom {
+  text-align: center;
+  color: #5a7184;
+}
+
+.footer-bottom__icon {
+  display: inline-flex;
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  background: var(--info);
+  color: #fff;
+  align-items: center;
+  justify-content: center;
+}
+
+@media screen and (min-width: 768px) {
+  .page__footer {
+    padding: 64px 0;
+  }
+
+  .page__footer__content > *:not(:last-child),
+  .footer-menu > *:not(:last-child),
+  .footer-bottom > *:not(:last-child) {
+    margin-bottom: 24px;
+  }
+
+  .page__footer__heading {
+    font-size: 18px;
+    margin-bottom: 30px;
+  }
+
+  .page__footer__content {
+    text-align: left;
+  }
+
+  .footer-menu {
+    margin: 0 0 48px;
+  }
+
+  .footer-bottom {
+    margin-top: calc(96px - 48px);
+  }
+}
+
+.footer-social__icon {
+  background: #eff1f3;
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  width: 40px;
+}
+.footer-icon-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
 
 /*here goes responsive styles*/
 @media screen and (max-width: 575px) {
+  .footer-icon-wrapper {
+    justify-content: center;
+  }
   /* styles that apply to screen widths smaller than 576px go here */
+  .footer-center {
+    margin: 0 auto;
+  }
 }
 
 /*!!!those styles will rewrite previous*/
 /*it will work FROM 576px INCLUDED*/
 @media screen and (min-width: 576px) {
+  .footer-icon-wrapper {
+    justify-content: center;
+  }
+  .footer-center {
+    margin: 0 auto;
+  }
 }
 
 /*!!!those styles will rewrite previous*/
 /*it will work FROM 768px INCLUDED*/
 @media screen and (min-width: 768px) {
+  .footer-center {
+    margin: 0;
+  }
+  .footer-icon-wrapper {
+    justify-content: space-between;
+  }
+  .page__footer {
+    padding: 64px 0;
+  }
+
+  .page__footer__content > *:not(:last-child),
+  .footer-menu > *:not(:last-child),
+  .footer-bottom > *:not(:last-child) {
+    margin-bottom: 24px;
+  }
+
+  .page__footer__heading {
+    font-size: 18px;
+    margin-bottom: 30px;
+  }
+
+  .page__footer__content {
+    text-align: left;
+  }
+
+  .footer-menu {
+    margin: 0 0 48px;
+  }
+
+  .footer-bottom {
+    margin-top: calc(96px - 48px);
+  }
 }
 
 /*!!!those styles will rewrite previous*/
