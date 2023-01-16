@@ -81,6 +81,7 @@
 }
 
 .footer-social__icon {
+  cursor: pointer;
   background: #eff1f3;
   border-radius: 30px;
   display: flex;
